@@ -1,0 +1,11 @@
+{if layer_z==1.6}M104 S265  ; T tower floor 1
+{elsif layer_z==11.6}M104 S260  ; T tower floor 2
+{elsif layer_z==21.6}M104 S255 ; T tower floor 3
+{elsif layer_z==31.6}M104 S250 ; T tower floor 4
+{elsif layer_z==41.6}M104 S245 ; T tower floor 5
+{elsif layer_z==51.6}M104 S240 ; T tower floor 6
+{elsif layer_z==61.6}M104 S235 ; T tower floor 7
+{elsif layer_z==71.6}M104 S230; T tower floor 8
+{elsif layer_z==81.6}M104 S225 ; T tower floor 9
+{elsif layer_z==91.6}M104 S220 ; T tower floor 10
+{endif}
