@@ -1,4 +1,4 @@
-# Two Trees Bluer - 3D Printer
+# Two Trees BlueR - 3D Printer
 
 Documentation, firmware and set of utilities for my own use and personal needs.
 
