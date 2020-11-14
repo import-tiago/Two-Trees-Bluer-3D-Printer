@@ -2,7 +2,7 @@
 
 Documentation, firmware and set of utilities for my own use and personal needs.
 
-<p align="center"><img src="" width="80%" height="80%"></p>
+<p align="left"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/Printer%20Preview.jpg" width="80%" height="80%"></p>
 
 ## Specs
 | Parameter | Value |
