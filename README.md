@@ -2,6 +2,8 @@
 
 Documentation, firmware and set of utilities for my own use and personal needs.
 
+<p align="center"><img src="" width="80%" height="80%"></p>
+
 ## Specs
 | Parameter | Value |
 |--|--|
