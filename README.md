@@ -25,6 +25,7 @@ Print file format|Gcode|
 Machine size|L=410mm * W=400mm * H=520mm|
 Machine weight|7.5kg|
 Power supply|127V~220V/240W|
+More information on the manufacturer's website: https://www.twotrees3dprinter.com/#/app/home
 
 ## Print Samples
 
