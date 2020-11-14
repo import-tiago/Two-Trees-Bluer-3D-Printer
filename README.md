@@ -13,17 +13,17 @@ Documentation, firmware and set of utilities for my own use and personal needs.
 #### 18650 Battery Box (x8)
 <img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IMG_20201108_102735.jpg" width="50%" height="50%">
 #### Dust Filament Filter
-<img src="" width="50%" height="50%">
+<img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IMG_20201114_103905.jpg" width="50%" height="50%">
 #### Universal Filament Clip
-<img src="" width="50%" height="50%">
+<img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IMG_20201114_103758.jpg" width="50%" height="50%">
 
 ### Calibration & Tests
 #### XYZ Cube
-<img src="" width="50%" height="50%">
+<img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IMG_20201114_103646.jpg" width="50%" height="50%">
 #### Temperature Tower
-<img src="" width="50%" height="50%">
+<img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IMG_20201114_103409.jpg" width="50%" height="50%">
 #### Bed Level
-<img src="" width="50%" height="50%">
+<img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IMG_20201112_212333.jpg" width="50%" height="50%">
 
 | ![](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/1.jpg) | ![](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/2.jpg) | ![](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/3.jpg) |
 |--|--|--|
