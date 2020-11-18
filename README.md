@@ -28,8 +28,8 @@ Machine size|L=410mm * W=400mm * H=520mm|
 Machine weight|7.5kg|
 Power supply|127V~220V/240W|
 Microcontroller|[STM32F103VET6](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Hardware/2.%20Datasheets/MCU/STM32F103VET6.pdf)|
-Motor Driver|[TMC2209](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/tree/master/Hardware/2.%20Datasheets/Motor%20Driver)|
-Stepper Motor|[US-17HS4401S](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/tree/master/Hardware/2.%20Datasheets/Stepper%20Motor)|
+Motor Driver|[TMC2209](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Hardware/2.%20Datasheets/Motor%20Driver/TMC2209.pdf)|
+Stepper Motor|[US-17HS4401S](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Hardware/2.%20Datasheets/Stepper%20Motor/US-17HS4401S.pdf)|
 
 More information on the manufacturer's website: https://www.twotrees3dprinter.com
 
