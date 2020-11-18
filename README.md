@@ -75,6 +75,11 @@ More information on the manufacturer's website: https://www.twotrees3dprinter.co
 - [ ] Z Axis Lead Screw Stabilizer - [Custom](https://www.thingiverse.com/thing:4656082) by [@jorgelousada](https://www.thingiverse.com/jorgelousada)
 
 
+## Filament Brands Rated
+### [Cliever](https://www.cliever.com/)   :star::star::star::star::star: 
+- packaging without moisture protection
+- excellent color diversity and good print quality
+
 ## Printer Details
 | ![](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/1.jpg) | ![](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/2.jpg) | ![](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/3.jpg) |
 |--|--|--|
