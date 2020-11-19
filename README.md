@@ -31,7 +31,7 @@ Microcontroller|[STM32F103VET6](https://github.com/TiagoPaulaSilva/Two-Trees-Blu
 Motor Driver|[TMC2209](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Hardware/Motherboard/2.%20Datasheets/Stepper%20Motor%20Driver/TMC2209.pdf)|
 Stepper Motor|[US-17HS4401S](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Hardware/Stepper%20Motors/US-17HS4401S.pdf)|
 Motherboard|[MKS Robin Nano v1.2](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Hardware/Motherboard/1.%20Schematic/MKS%20Robin%20Nano%20v1.2.pdf) ([source HW + FW](https://github.com/makerbase-mks/MKS-Robin-Nano-V1.X))|
-Display|[MKS Robin TFT35 v1.0](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Hardware/Display/1.%20Schematic/MKS%20TS35%20V2.0_001%20SCH.pdf) ([source HW](https://github.com/makerbase-mks/MKS-TFT-Hardware) and [source FW](https://github.com/makerbase-mks/MKS-TFT/tree/master/MKS-TFT3.5))|
+Display|MKS Robin TFT35(FSMC)|
 
 More information on the manufacturer's website: https://www.twotrees3dprinter.com
 
