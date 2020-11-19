@@ -27,11 +27,11 @@ Print file format|Gcode|
 Machine size|L=410mm * W=400mm * H=520mm|
 Machine weight|7.5kg|
 Power supply|127V~220V/240W|
-Microcontroller|[STM32F103VET6](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Hardware/2.%20Datasheets/MCU/STM32F103VET6.pdf)|
-Motor Driver|[TMC2209](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Hardware/2.%20Datasheets/Motor%20Driver/TMC2209.pdf)|
-Stepper Motor|[US-17HS4401S](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Hardware/2.%20Datasheets/Stepper%20Motor/US-17HS4401S.pdf)|
-Motherboard|[MKS Robin Nano v1.2](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Hardware/1.%20Schematic/MKS%20Robin%20Nano%20v1.2.pdf)|
-Display|[MKS Robin TFT35 v1.0]()|
+Microcontroller|[STM32F103VET6](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Hardware/Motherboard/2.%20Datasheets/MCU/STM32F103VET6.pdf)|
+Motor Driver|[TMC2209](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Hardware/Motherboard/2.%20Datasheets/Stepper%20Motor%20Driver/TMC2209.pdf)|
+Stepper Motor|[US-17HS4401S](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Hardware/Stepper%20Motors/US-17HS4401S.pdf)|
+Motherboard|[MKS Robin Nano v1.2](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Hardware/Motherboard/1.%20Schematic/MKS%20Robin%20Nano%20v1.2.pdf)|
+Display|[MKS Robin TFT35 v1.0](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Hardware/Display/1.%20Schematic/MKS%20TS35%20V2.0_001%20SCH.pdf)|
 
 More information on the manufacturer's website: https://www.twotrees3dprinter.com
 
