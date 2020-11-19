@@ -30,6 +30,8 @@ Power supply|127V~220V/240W|
 Microcontroller|[STM32F103VET6](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Hardware/2.%20Datasheets/MCU/STM32F103VET6.pdf)|
 Motor Driver|[TMC2209](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Hardware/2.%20Datasheets/Motor%20Driver/TMC2209.pdf)|
 Stepper Motor|[US-17HS4401S](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Hardware/2.%20Datasheets/Stepper%20Motor/US-17HS4401S.pdf)|
+Motherboard|[MKS Robin Nano v1.2](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Hardware/1.%20Schematic/MKS%20Robin%20Nano%20v1.2.pdf)|
+Display|[MKS Robin TFT35 v1.0]()|
 
 More information on the manufacturer's website: https://www.twotrees3dprinter.com
 
@@ -76,6 +78,7 @@ More information on the manufacturer's website: https://www.twotrees3dprinter.co
 - [ ] Wireless Printer Monitor and Controller - [Raspberry](https://www.raspberrypi.org/) + [OctoPi](https://github.com/guysoft/OctoPi) + [OctoPrint](https://octoprint.org/) + [Sonoff](https://sonoff.tech/)
 - [ ] Premium Ultra-Quiet Fan Cooler - [Noctua NF-A4x10 FLX](https://noctua.at/en/nf-a4x10-flx) + [DC-DC Buck Converter with LM2596](https://br.banggood.com/LM2596-DC-DC-Verstellbar-Step-Down-Schaltregler-Power-Supply-Module-p-88252.html?rmmds=search&cur_warehouse=CN)
 - [ ] Z Axis Lead Screw Stabilizer - [Custom](https://www.thingiverse.com/thing:4656082) by [@jorgelousada](https://www.thingiverse.com/jorgelousada)
+- [ ] Silicone cover for heated block - [MK8 Cover](https://www.aliexpress.com/item/33050074990.html?spm=a2g0o.detail.0.0.4574ac8c3xkbkY&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.169870.0&scm_id=1007.13339.169870.0&scm-url=1007.13339.169870.0&pvid=c34b10de-e1c6-47de-9053-f818f89dd91a&_t=gps-id:pcDetailBottomMoreThisSeller,scm-url:1007.13339.169870.0,pvid:c34b10de-e1c6-47de-9053-f818f89dd91a,tpp_buckets:668%230%23131923%2330_668%23808%234094%23253_668%23888%233325%2312_668%234328%2319926%23211_668%232846%238116%23942_668%232717%237558%23186_668%231000022185%231000066058%230_668%233468%2315616%23763)
 
 
 ## Filament Brands Rated
