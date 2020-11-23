@@ -39,26 +39,26 @@ More information on the manufacturer's website: https://www.twotrees3dprinter.co
 ## Print Samples
 
 ### Decoration Models
-#### Bulbasaur Planter
+#### Bulbasaur Planter ([STL](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/tree/master/3D%20Models/Decoration/Bulbasaur%20Planter))
 <p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IMG_20201103_212945.jpg" width="80%" height="80%"></p>
 
 
 ### Tools & Utensils
-#### SD & Micro SD Card Box
+#### SD & Micro SD Card Box ([STL](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/tree/master/3D%20Models/Tools%20%26%20Utensils/SD%20%26%20Micro%20SD%20Card%20Box))
 <p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IMG_20201107_093354.jpg" width="80%" height="80%"></p>
 
-#### 18650 Battery Box (x8)
+#### 18650 Battery Box (x8) ([STL](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/tree/master/3D%20Models/Tools%20%26%20Utensils/18650%20Battery%20Box%20(x8)))
 <p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IMG_20201108_102735.jpg" width="80%" height="80%"></p>
 
-#### Dust Filament Filter
+#### Dust Filament Filter ([STL](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/tree/master/3D%20Models/Tools%20%26%20Utensils/Dust%20Filament%20Filter))
 <p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IMG_20201114_103905.jpg" width="80%" height="80%"></p>
 
-#### Universal Filament Clip
+#### Universal Filament Clip ([STL](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/tree/master/3D%20Models/Tools%20%26%20Utensils/Universal%20Filament%20Clip))
 <p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IMG_20201114_103758.jpg" width="80%" height="80%"></p>
 
 
 ### Calibration & Tests
-#### XYZ Cube
+#### XYZ Cube ([STL](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/tree/master/3D%20Models/Calibration%20%26%20Tests/XYZ%20Cube))
 <p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IMG_20201114_103646.jpg" width="80%" height="80%"></p>
 
 #### Temperature Tower
