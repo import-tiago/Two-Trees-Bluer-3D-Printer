@@ -61,15 +61,15 @@ More information on the manufacturer's website: https://www.twotrees3dprinter.co
 #### XYZ Cube ([STL](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/tree/master/3D%20Models/Calibration%20%26%20Tests/XYZ%20Cube))
 <p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IMG_20201114_103646.jpg" width="80%" height="80%"></p>
 
-#### Temperature Tower
+#### Temperature Tower ([STL](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/tree/master/3D%20Models/Calibration%20%26%20Tests/Temperature%20Tower))
 <p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IMG_20201114_103409.jpg" width="80%" height="80%"></p>
 
-#### Bed Level
+#### Bed Level ([STL](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/tree/master/3D%20Models/Calibration%20%26%20Tests/Bed%20Level))
 <p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IMG_20201112_212333.jpg" width="80%" height="80%"></p>
 
 
 ### BlueR Self-Upgrades Parts
-#### BLTtouch Support (front mounting)
+#### BLTtouch Support (front mounting) ([STL](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/tree/master/3D%20Models/BlueR%20Self-Upgrades/BLTtouch%20Support%20(front%20mounting)/STL))
 <p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IMG_20201114_123223.jpg" width="80%" height="80%"></p>
 
 ## Improved Components and Updates
