@@ -73,7 +73,7 @@ More information on the manufacturer's website: https://www.twotrees3dprinter.co
 <p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IMG_20201114_123223.jpg" width="80%" height="80%"></p>
 
 ## Improved Components and Updates
-- [x] Stepper Motor Driver - [TMC2209](https://br.banggood.com/5pcs-TMC2209-Stepper-Motor-Driver-Super-Silent-Stepsticks-Mute-Driver-Board-256-Microsteps-For-Sidewinder-3D-Printer-p-1585178.html?rmmds=myorder&cur_warehouse=CN)
+- [x] Stepper Motor Driver - [TMC2209](https://br.banggood.com/5pcs-TMC2209-Stepper-Motor-Driver-Super-Silent-Stepsticks-Mute-Driver-Board-256-Microsteps-For-Sidewinder-3D-Printer-p-1585178.html?rmmds=myorder&cur_warehouse=CN) at X, Y, Z and E (ultra silence)
 - [x] Auto Leveling Sensor - [3D Touch](https://br.banggood.com/TWO-TREES-Touch-Auto-Leveling-Sensor-Auto-Bed-Leveling-Sensor-BLTouch-For-3D-Printers-p-1625266.html?rmmds=myorder&cur_warehouse=CN)
 - [x] Glass and mirror on the heated bed plate (Custom 235mm x 235mm x 3mm)
 - [ ] Wireless Printer Monitor and Controller - [Raspberry](https://www.raspberrypi.org/) + [OctoPi](https://github.com/guysoft/OctoPi) + [OctoPrint](https://octoprint.org/) + [Sonoff](https://sonoff.tech/)
