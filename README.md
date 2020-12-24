@@ -39,6 +39,12 @@ More information on the manufacturer's website: https://www.twotrees3dprinter.co
 ## Print Samples
 
 ### Decoration Models
+#### Among Us ([STL](https://www.thingiverse.com/thing:4626168))
+
+
+![](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/Among%20Us%200.png) | ![](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/Among%20Us%201.png)
+--- | ---
+
 #### Bulbasaur Planter ([STL](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/tree/master/3D%20Models/Decoration/Bulbasaur%20Planter))
 <p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IMG_20201103_212945.jpg" width="80%" height="80%"></p>
 
