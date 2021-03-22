@@ -32,7 +32,7 @@ Motor Driver|[TMC2209 datasheet](https://github.com/TiagoPaulaSilva/Two-Trees-Bl
 Stepper Motor|[US-17HS4401S datasheet](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Hardware/Stepper%20Motors/US-17HS4401S.pdf)|
 Motherboard|[MKS Robin Nano v1.2 schematic](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Hardware/Motherboard/1.%20Schematic/MKS%20Robin%20Nano%20v1.2.pdf) ([source HW + FW](https://github.com/makerbase-mks/MKS-Robin-Nano-V1.X))|
 Display|MKS Robin TFT35(FSMC) (schematic not available)|
-Firmware|[Marlin 3D Printer Firmware 2.0.x](https://github.com/MarlinFirmware/Marlin) (release 2.0.7.2 from 29 Oct 2020) + [BlueR v3 Marlin Configurations](https://github.com/MarlinFirmware/Configurations/tree/import-2.0.x/config/examples/Two%20Trees/BlueR/BlueR%20V3) (from Mar 14, 2021) + Personal Customization|
+Firmware|[Marlin 3D Printer Firmware 2.0.x](https://github.com/MarlinFirmware/Marlin) (from bugfix-2.0.X in 3/21/2021) + [BlueR v3 Marlin Configurations](https://github.com/MarlinFirmware/Configurations/tree/import-2.0.x/config/examples/Two%20Trees/BlueR/BlueR%20V3) (from import-2.0.X in 3/21/2021) + Personal Customization|
 
 More information on the manufacturer's website: https://www.twotrees3dprinter.com
 
