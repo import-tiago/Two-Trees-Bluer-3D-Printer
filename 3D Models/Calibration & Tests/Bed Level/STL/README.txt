@@ -1,1 +1,0 @@
-Ender 3 Bed Level by sahansudeepa on Thingiverse: https://www.thingiverse.com/thing:4642274

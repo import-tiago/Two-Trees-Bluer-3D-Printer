@@ -1,1 +1,0 @@
-Lowest poly The Thinker by LxO on Thingiverse: https://www.thingiverse.com/thing:2164071
