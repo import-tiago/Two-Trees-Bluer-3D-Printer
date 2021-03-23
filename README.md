@@ -49,7 +49,7 @@ Versions|[Marlin 3D Printer Firmware 2.0.x](https://github.com/MarlinFirmware/Ma
 ![](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/Among%20Us%200.png) | ![](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/Among%20Us%201.png)
 --- | ---
 
-#### Bulbasaur Planter ([STL](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/tree/master/3D%20Models/Decoration/Bulbasaur%20Planter))
+#### Bulbasaur Planter ([STL](https://www.thingiverse.com/thing:633081))
 <p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IMG_20201103_212945.jpg" width="80%" height="80%"></p>
 
 
