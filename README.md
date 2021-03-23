@@ -4,26 +4,23 @@ Documentation, firmware and set of utilities for my own use and personal needs.
 
 <p align="left"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/Printer%20Preview.jpg" width="50%" height="50%"></p>
 
-## Specs
+## Hardwarede Specs
 | Parameter | Value |
 |--|--|
 Number of nozzles|1|
-Nozzle diameter|0.4mm|
 Construction volume|235mm * 235mm * 280mm|
-Printing accuracy|± 0.1~0.2mm|
-Layer thickness|0.1~0.4mm|
-printing method|SD card / online printing|
+Printing method|SD-Card / online printing (by Serial UART communication through printer USB connector and some internet interface)|
 IHM|3.5 inch color touch screen|
 Machine speed|10~300mm/s|
-print speed|20~200mm/s|
+Print speed|20~200mm/s|
 Extrusion head temperature (highest)|260 °C|
 Maximum hot bed temperature (highest)|100 °C|
 Printing platform|Warm bed|
 XY axis positioning accuracy|0.01mm|
 Z axis positioning accuracy|0.004mm|
 Recommended printed material|PLA, ABS and PETG|
-Consumable diameter|1.75mm|
-Print file format|Gcode|
+Consumable filament diameter|1.75mm|
+Print file format|G-Code|
 Machine size|L=410mm * W=400mm * H=520mm|
 Machine weight|7.5kg|
 Power supply|127V~220V/240W|
