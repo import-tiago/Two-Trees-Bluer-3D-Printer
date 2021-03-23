@@ -73,7 +73,7 @@ Versions|[Marlin 3D Printer Firmware 2.0.x](https://github.com/MarlinFirmware/Ma
 
 
 ### BlueR Self-Upgrades Parts
-#### BLTtouch Support (front mounting) ([STL](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/tree/master/3D%20Models/BlueR%20Self-Upgrades/BLTtouch%20Support%20(front%20mounting)/STL))
+#### BLTtouch Support (front mounting) ([STL](https://moltech3d.com/blog/2020/10/05/suporte-para-fixacao-do-bltouch-na-impressora-twotrees-bluer/))
 <p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IMG_20201114_123223.jpg" width="80%" height="80%"></p>
 
 ## Improved Components and Updates
