@@ -54,28 +54,22 @@ Versions|[Marlin 3D Printer Firmware 2.0.x](https://github.com/MarlinFirmware/Ma
 
 
 ### Tools & Utensils
-#### SD & Micro SD Card Box ([STL](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/tree/master/3D%20Models/Tools%20%26%20Utensils/SD%20%26%20Micro%20SD%20Card%20Box))
+#### SD & Micro SD Card Box ([STL](https://www.thingiverse.com/thing:3611322))
 <p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IMG_20201107_093354.jpg" width="80%" height="80%"></p>
 
-#### 18650 Battery Box (x8) ([STL](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/tree/master/3D%20Models/Tools%20%26%20Utensils/18650%20Battery%20Box%20(x8)))
+#### 18650 Battery Box (x8) ([STL](https://www.thingiverse.com/thing:3191180))
 <p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IMG_20201108_102735.jpg" width="80%" height="80%"></p>
 
-#### Dust Filament Filter ([STL](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/tree/master/3D%20Models/Tools%20%26%20Utensils/Dust%20Filament%20Filter))
+#### Dust Filament Filter ([STL](https://www.thingiverse.com/thing:1692395))
 <p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IMG_20201114_103905.jpg" width="80%" height="80%"></p>
 
-#### Universal Filament Clip ([STL](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/tree/master/3D%20Models/Tools%20%26%20Utensils/Universal%20Filament%20Clip))
+#### Universal Filament Clip ([STL](https://www.thingiverse.com/thing:3757356))
 <p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IMG_20201114_103758.jpg" width="80%" height="80%"></p>
 
 
 ### Calibration & Tests
-#### XYZ Cube ([STL](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/tree/master/3D%20Models/Calibration%20%26%20Tests/XYZ%20Cube))
+#### XYZ Cube ([STL](https://www.thingiverse.com/thing:1278865))
 <p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IMG_20201114_103646.jpg" width="80%" height="80%"></p>
-
-#### Temperature Tower ([STL](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/tree/master/3D%20Models/Calibration%20%26%20Tests/Temperature%20Tower))
-<p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IMG_20201114_103409.jpg" width="80%" height="80%"></p>
-
-#### Bed Level ([STL](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/tree/master/3D%20Models/Calibration%20%26%20Tests/Bed%20Level))
-<p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IMG_20201112_212333.jpg" width="80%" height="80%"></p>
 
 
 ### BlueR Self-Upgrades Parts
