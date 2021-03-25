@@ -83,11 +83,6 @@ Versions|[Marlin 3D Printer Firmware 2.0.x](https://github.com/MarlinFirmware/Ma
 - [ ] Silicone cover for heated block - [MK8 Cover](https://www.aliexpress.com/item/33050074990.html?spm=a2g0o.detail.0.0.4574ac8c3xkbkY&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.169870.0&scm_id=1007.13339.169870.0&scm-url=1007.13339.169870.0&pvid=c34b10de-e1c6-47de-9053-f818f89dd91a&_t=gps-id:pcDetailBottomMoreThisSeller,scm-url:1007.13339.169870.0,pvid:c34b10de-e1c6-47de-9053-f818f89dd91a,tpp_buckets:668%230%23131923%2330_668%23808%234094%23253_668%23888%233325%2312_668%234328%2319926%23211_668%232846%238116%23942_668%232717%237558%23186_668%231000022185%231000066058%230_668%233468%2315616%23763)
 
 
-## Filament Brands Rated
-### [Cliever](https://www.cliever.com/)   :star::star::star::star::star: 
-- packaging without moisture protection
-- excellent color diversity and good print quality
-
 ## Printer Details
 | ![](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/1.jpg) | ![](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/2.jpg) | ![](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/3.jpg) |
 |--|--|--|
