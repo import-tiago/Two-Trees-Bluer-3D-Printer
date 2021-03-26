@@ -4,26 +4,23 @@ Documentation, firmware and set of utilities for my own use and personal needs.
 
 <p align="left"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/Printer%20Preview.jpg" width="50%" height="50%"></p>
 
-## Specs
+## Hardwarede Specs
 | Parameter | Value |
 |--|--|
 Number of nozzles|1|
-Nozzle diameter|0.4mm|
 Construction volume|235mm * 235mm * 280mm|
-Printing accuracy|± 0.1~0.2mm|
-Layer thickness|0.1~0.4mm|
-printing method|SD card / online printing|
+Printing method|SD-Card / online printing (by Serial UART communication through printer USB connector and some internet interface)|
 IHM|3.5 inch color touch screen|
 Machine speed|10~300mm/s|
-print speed|20~200mm/s|
+Print speed|20~200mm/s|
 Extrusion head temperature (highest)|260 °C|
 Maximum hot bed temperature (highest)|100 °C|
 Printing platform|Warm bed|
 XY axis positioning accuracy|0.01mm|
 Z axis positioning accuracy|0.004mm|
 Recommended printed material|PLA, ABS and PETG|
-Consumable diameter|1.75mm|
-Print file format|Gcode|
+Consumable filament diameter|1.75mm|
+Print file format|G-Code|
 Machine size|L=410mm * W=400mm * H=520mm|
 Machine weight|7.5kg|
 Power supply|127V~220V/240W|
@@ -85,11 +82,6 @@ Versions|[Marlin 3D Printer Firmware 2.0.x](https://github.com/MarlinFirmware/Ma
 - [ ] Z Axis Lead Screw Stabilizer - [Custom](https://www.thingiverse.com/thing:4656082) by [@jorgelousada](https://www.thingiverse.com/jorgelousada)
 - [ ] Silicone cover for heated block - [MK8 Cover](https://www.aliexpress.com/item/33050074990.html?spm=a2g0o.detail.0.0.4574ac8c3xkbkY&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.169870.0&scm_id=1007.13339.169870.0&scm-url=1007.13339.169870.0&pvid=c34b10de-e1c6-47de-9053-f818f89dd91a&_t=gps-id:pcDetailBottomMoreThisSeller,scm-url:1007.13339.169870.0,pvid:c34b10de-e1c6-47de-9053-f818f89dd91a,tpp_buckets:668%230%23131923%2330_668%23808%234094%23253_668%23888%233325%2312_668%234328%2319926%23211_668%232846%238116%23942_668%232717%237558%23186_668%231000022185%231000066058%230_668%233468%2315616%23763)
 
-
-## Filament Brands Rated
-### [Cliever](https://www.cliever.com/)   :star::star::star::star::star: 
-- packaging without moisture protection
-- excellent color diversity and good print quality
 
 ## Printer Details
 | ![](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/1.jpg) | ![](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/2.jpg) | ![](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/3.jpg) |
