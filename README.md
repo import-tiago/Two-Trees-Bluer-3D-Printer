@@ -76,10 +76,10 @@ Versions|[Marlin 3D Printer Firmware 2.0.x](https://github.com/MarlinFirmware/Ma
 ## Improved Components and Updates
 - [x] Stepper Motor Driver - [TMC2209](https://br.banggood.com/5pcs-TMC2209-Stepper-Motor-Driver-Super-Silent-Stepsticks-Mute-Driver-Board-256-Microsteps-For-Sidewinder-3D-Printer-p-1585178.html?rmmds=myorder&cur_warehouse=CN) at X, Y, Z and E - **ultra-silent controllers**
 - [x] Auto Leveling Sensor - [3D Touch](https://br.banggood.com/TWO-TREES-Touch-Auto-Leveling-Sensor-Auto-Bed-Leveling-Sensor-BLTouch-For-3D-Printers-p-1625266.html?rmmds=myorder&cur_warehouse=CN) - **Automatic and improved bed leveling**
-- [x] Glass and mirror on the heated bed plate (Custom 235mm x 235mm x 3mm) - **better adhesion and flatness surface**
+- [x] Glass on the heated bed plate [235mm x 235mm x 4mm](https://pt.aliexpress.com/item/32919815984.html?spm=a2g0o.productlist.0.0.2c6f467ef8q7mg&algo_pvid=a9dc1c8f-cf32-4685-b677-53a1c3206704&algo_expid=a9dc1c8f-cf32-4685-b677-53a1c3206704-0&btsid=212bd07d16173281806017826e8910&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) - **better adhesion and flatness surface**
 - [ ] Wireless Printer Monitor and Controller - [Raspberry](https://www.raspberrypi.org/) + [OctoPi](https://github.com/guysoft/OctoPi) + [OctoPrint](https://octoprint.org/) + [Sonoff](https://sonoff.tech/)
 - [ ] Premium Ultra-Quiet Fan Cooler - [Noctua NF-A4x10 FLX](https://noctua.at/en/nf-a4x10-flx) + [DC-DC Buck Converter with LM2596](https://br.banggood.com/LM2596-DC-DC-Verstellbar-Step-Down-Schaltregler-Power-Supply-Module-p-88252.html?rmmds=search&cur_warehouse=CN)
-- [ ] Z Axis Lead Screw Stabilizer - [Custom](https://www.thingiverse.com/thing:4656082) by [@jorgelousada](https://www.thingiverse.com/jorgelousada)
+- [x] Anti-backlash Spring Loaded Nut - [T8](https://pt.aliexpress.com/item/32820989850.html?spm=a2g0o.cart.0.0.4d623c00aKJcGs&mp=1)
 - [ ] Silicone cover for heated block - [MK8 Cover](https://www.aliexpress.com/item/33050074990.html?spm=a2g0o.detail.0.0.4574ac8c3xkbkY&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.169870.0&scm_id=1007.13339.169870.0&scm-url=1007.13339.169870.0&pvid=c34b10de-e1c6-47de-9053-f818f89dd91a&_t=gps-id:pcDetailBottomMoreThisSeller,scm-url:1007.13339.169870.0,pvid:c34b10de-e1c6-47de-9053-f818f89dd91a,tpp_buckets:668%230%23131923%2330_668%23808%234094%23253_668%23888%233325%2312_668%234328%2319926%23211_668%232846%238116%23942_668%232717%237558%23186_668%231000022185%231000066058%230_668%233468%2315616%23763)
 
 
