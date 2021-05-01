@@ -21,9 +21,10 @@
  */
 #pragma once
 
+#define CONFIG_EXAMPLES_DIR "Two Trees/BlueR/BlueR V3"
+
 #define BLUER_TMC2209 // Enable for the TMC2209 driver version
 #define BLUER_BLTOUCH // Enable if you want to use BLTOUCH
-
 
 /**
  * Configuration.h
@@ -164,11 +165,11 @@
  * Multi-Material Unit
  * Set to one of these predefined models:
  *
- *   PRUSA_MMU1      : Průša MMU1 (The "multiplexer" version)
- *   PRUSA_MMU2      : Průša MMU2
- *   PRUSA_MMU2S     : Průša MMU2S (Requires MK3S extruder with motion sensor, EXTRUDERS = 5)
- *   SMUFF_EMU_MMU2  : Technik Gegg SMuFF (Průša MMU2 emulation mode)
- *   SMUFF_EMU_MMU2S : Technik Gegg SMuFF (Průša MMU2S emulation mode)
+ *   PRUSA_MMU1           : Průša MMU1 (The "multiplexer" version)
+ *   PRUSA_MMU2           : Průša MMU2
+ *   PRUSA_MMU2S          : Průša MMU2S (Requires MK3S extruder with motion sensor, EXTRUDERS = 5)
+ *   EXTENDABLE_EMU_MMU2  : MMU with configurable number of filaments (ERCF, SMuFF or similar with Průša MMU2 compatible firmware)
+ *   EXTENDABLE_EMU_MMU2S : MMUS with configurable number of filaments (ERCF, SMuFF or similar with Průša MMU2 compatible firmware)
  *
  * Requires NOZZLE_PARK_FEATURE to park print head in case MMU unit fails.
  * See additional options in Configuration_adv.h.
@@ -441,17 +442,17 @@
 //#define TEMP_SENSOR_1_AS_REDUNDANT
 #define MAX_REDUNDANT_TEMP_SENSOR_DIFF 10
 
-#define TEMP_RESIDENCY_TIME     10  // (seconds) Time to wait for hotend to "settle" in M109
-#define TEMP_WINDOW              1  // (°C) Temperature proximity for the "temperature reached" timer
-#define TEMP_HYSTERESIS          3  // (°C) Temperature proximity considered "close enough" to the target
+#define TEMP_RESIDENCY_TIME         10  // (seconds) Time to wait for hotend to "settle" in M109
+#define TEMP_WINDOW                  1  // (°C) Temperature proximity for the "temperature reached" timer
+#define TEMP_HYSTERESIS              3  // (°C) Temperature proximity considered "close enough" to the target
 
-#define TEMP_BED_RESIDENCY_TIME 10  // (seconds) Time to wait for bed to "settle" in M190
-#define TEMP_BED_WINDOW          1  // (°C) Temperature proximity for the "temperature reached" timer
-#define TEMP_BED_HYSTERESIS      3  // (°C) Temperature proximity considered "close enough" to the target
+#define TEMP_BED_RESIDENCY_TIME     10  // (seconds) Time to wait for bed to "settle" in M190
+#define TEMP_BED_WINDOW              1  // (°C) Temperature proximity for the "temperature reached" timer
+#define TEMP_BED_HYSTERESIS          3  // (°C) Temperature proximity considered "close enough" to the target
 
 #define TEMP_CHAMBER_RESIDENCY_TIME 10  // (seconds) Time to wait for chamber to "settle" in M191
-#define TEMP_CHAMBER_WINDOW      1  // (°C) Temperature proximity for the "temperature reached" timer
-#define TEMP_CHAMBER_HYSTERESIS  3  // (°C) Temperature proximity considered "close enough" to the target
+#define TEMP_CHAMBER_WINDOW          1  // (°C) Temperature proximity for the "temperature reached" timer
+#define TEMP_CHAMBER_HYSTERESIS      3  // (°C) Temperature proximity considered "close enough" to the target
 
 // Below this temperature the heater will be switched off
 // because it probably indicates a broken thermistor wire.
@@ -488,6 +489,7 @@
  */
 #define HOTEND_OVERSHOOT 15   // (°C) Forbid temperatures over MAXTEMP - OVERSHOOT
 #define BED_OVERSHOOT    10   // (°C) Forbid temperatures over MAXTEMP - OVERSHOOT
+#define COOLER_OVERSHOOT  2   // (°C) Forbid temperatures closer than OVERSHOOT
 
 //===========================================================================
 //============================= PID Settings ================================
@@ -817,7 +819,7 @@
 #if ENABLED(BLUER_TMC2209)
   #define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 800, 830 }
 #else
-  #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 415 }
+  #define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 400, 415 }
 #endif
 
 /**
@@ -955,19 +957,12 @@
  * or (with LCD_BED_LEVELING) the LCD controller.
  */
 //#define PROBE_MANUALLY
-//#define MANUAL_PROBE_START_Z 0.2
 
 /**
  * A Fix-Mounted Probe either doesn't deploy or needs manual deployment.
  *   (e.g., an inductive probe or a nozzle-based probe-switch.)
  */
 //#define FIX_MOUNTED_PROBE
-
-/**
- * Use the nozzle as the probe, with the hotend
- * assembly attached to a sensitive strain gauge.
- */
-//#define STRAIN_GAUGE_PROBE
 
 /**
  * Use the nozzle as the probe, as with a conductive
@@ -1262,7 +1257,7 @@
 
 // @section machine
 
-// The size of the print bed
+// The size of the printable area
 #define X_BED_SIZE 235
 #define Y_BED_SIZE 235
 
@@ -1448,6 +1443,11 @@
  */
 //#define DEBUG_LEVELING_FEATURE
 
+#if ANY(MESH_BED_LEVELING, AUTO_BED_LEVELING_UBL, PROBE_MANUALLY)
+  // Set a height for the start of manual adjustment
+  #define MANUAL_PROBE_START_Z 0.2  // (mm) Comment out to use the last-measured height
+#endif
+
 #if ANY(MESH_BED_LEVELING, AUTO_BED_LEVELING_BILINEAR, AUTO_BED_LEVELING_UBL)
   // Gradually reduce leveling correction until a set height is reached,
   // at which point movement will be level to the machine's XY plane.
@@ -1517,6 +1517,8 @@
   #define MESH_INSET 1              // Set Mesh bounds as an inset region of the bed
   #define GRID_MAX_POINTS_X 10      // Don't use more than 15 points per axis, implementation limited.
   #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X
+
+  //#define UBL_HILBERT_CURVE       // Use Hilbert distribution for less travel when probing multiple points
 
   #define UBL_MESH_EDIT_MOVES_Z     // Sophisticated users prefer no movement of nozzle
   #define UBL_SAVE_ACTIVE_ON_M500   // Save the currently active mesh in the current slot on M500
@@ -1622,8 +1624,6 @@
 
 // Homing speeds (mm/min)
 #define HOMING_FEEDRATE_MM_M { (50*60), (50*60), (4*60) }
-
-
 
 // Validate that endstops are triggered on homing moves
 #define VALIDATE_HOMING_ENDSTOPS
@@ -2414,12 +2414,11 @@
 //#define DGUS_LCD_UI_ORIGIN
 //#define DGUS_LCD_UI_FYSETC
 //#define DGUS_LCD_UI_HIPRECY
-//#define DGUS_LCD_UI_MKS
 
-//
-// CR-6 OEM touch screen. A DWIN display with touch.
-//
-//#define DWIN_CREALITY_TOUCHLCD
+//#define DGUS_LCD_UI_MKS
+#if ENABLED(DGUS_LCD_UI_MKS)
+  #define USE_MKS_GREEN_UI
+#endif
 
 //
 // Touch-screen LCD for Malyan M200/M300 printers
@@ -2450,7 +2449,7 @@
 //
 //#define NEXTION_TFT
 #if ENABLED(NEXTION_TFT)
-  #define LCD_SERIAL_PORT 1
+  #define LCD_SERIAL_PORT 1  // Default is 1 for Nextion
 #endif
 
 //
@@ -2539,6 +2538,11 @@
 //#define ANET_ET5_TFT35
 
 //
+// 1024x600, 7", RGB Stock Display from BIQU-BX
+//
+//#define BIQU_BX_TFT70
+
+//
 // Generic TFT with detailed options
 //
 //#define TFT_GENERIC
@@ -2607,7 +2611,7 @@
   #define TOUCH_CALIBRATION_Y -12234
   #define TOUCH_OFFSET_X         -45
   #define TOUCH_OFFSET_Y         349
-  #define TOUCH_ORIENTATION TOUCH_LANDSCAPE
+  //#define TOUCH_ORIENTATION TOUCH_LANDSCAPE
 
   #if BOTH(TOUCH_SCREEN_CALIBRATION, EEPROM_SETTINGS)
     #define TOUCH_CALIBRATION_AUTO_SAVE // Auto save successful calibration values to EEPROM
