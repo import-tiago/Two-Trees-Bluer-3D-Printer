@@ -33,7 +33,7 @@ Display|MKS Robin TFT35(FSMC) (schematic not available)|
 More information on the manufacturer's website: https://www.twotrees3dprinter.com
 
 ## Firmware
-Versions|[Marlin 3D Printer Firmware 2.0.x](https://github.com/MarlinFirmware/Marlin) (from bugfix-2.0.X in 3/26/2021) + [BlueR v3 Marlin Configurations](https://github.com/MarlinFirmware/Configurations/tree/import-2.0.x/config/examples/Two%20Trees/BlueR/BlueR%20V3) (from bugfix-2.0.X in 3/26/2021) + Personal Customization|
+Versions|[Marlin 3D Printer Firmware](https://github.com/MarlinFirmware/Marlin/releases/tag/2.0.8) (from release-2.0.8 in 4/30/2021) + [BlueR v3 Marlin Configurations](https://github.com/MarlinFirmware/Configurations/tree/release-2.0.8/config/examples/Two%20Trees/BlueR/BlueR%20V3) (from release-2.0.8 in 4/30/2021) + Personal Customization|
 --- | ---
 
 
