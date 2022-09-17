@@ -4,7 +4,7 @@ Documentation, firmware and set of utilities for my own use and personal needs.
 
 <p align="left"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/Printer%20Preview.jpg" width="50%" height="50%"></p>
 
-## Hardwarede Specs
+## Machine Specs
 | Parameter | Value |
 |--|--|
 Number of nozzles|1|
@@ -33,7 +33,7 @@ Display|MKS Robin TFT35(FSMC) (schematic not available)|
 More information on the manufacturer's official website: https://twotrees3d.com/
 
 ## Firmware
-Versions|[Marlin 3D Printer Firmware](https://github.com/MarlinFirmware/Marlin/releases/tag/2.0.9.2) (from release-2.0.9.2 in 10/4/2021) + [BlueR v3 Marlin Configurations](https://github.com/MarlinFirmware/Configurations/tree/release-2.0.9.2/config/examples/Two%20Trees/BlueR/BlueR%20V3) (from release-2.0.9.2 in 10/4/2021) + Personal Customization|
+Versions|[Marlin 3D Printer Firmware](https://github.com/MarlinFirmware/Marlin/releases/tag/2.0.9.3) (from release-2.0.9.3 in 12/31/2021) + [BlueR v3 Marlin Configurations](https://github.com/MarlinFirmware/Configurations/tree/release-2.0.9.3/config/examples/Two%20Trees/BlueR/BlueR%20V3) (from release-2.0.9.3 in 12/31/2021) + Personal Customization|
 --- | ---
 
 
