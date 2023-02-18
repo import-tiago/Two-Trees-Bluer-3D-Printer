@@ -67,7 +67,7 @@ Versions|[Marlin 3D Printer Firmware](https://github.com/MarlinFirmware/Marlin/r
 
 ### Calibration & Tests
 #### XYZ Cube ([STL](https://www.thingiverse.com/thing:1278865))
-<p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IMG_20201114_103646.jpg" width="80%" height="80%"></p>
+<p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IMG_20201114_103646.jpg" width="100%" height="100%"></p>
 
 
 ### BlueR Self-Upgrades Parts
