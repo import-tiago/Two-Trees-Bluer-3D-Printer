@@ -33,7 +33,7 @@ Display|MKS Robin TFT35 - Parallel line communication interface (FSMC) (schemati
 More information on the manufacturer's official website: https://twotrees3d.com/
 
 ## Firmware
-Versions|[Marlin 3D Printer Firmware](https://github.com/MarlinFirmware/Marlin/releases/tag/2.1.1) (from release-2.1.1 in 09/16/2022) + [BlueR v3 Marlin Configurations](https://github.com/MarlinFirmware/Configurations/tree/release-2.1.1/config/examples/Two%20Trees/BlueR/BlueR%20V3) (from release-2.1.1 in 09/16/2022) + Personal Customization|
+Versions|[Marlin 3D Printer Firmware](https://github.com/MarlinFirmware/Marlin/releases/tag/2.1.2) (from release-2.1.2 in 02/18/2023) + [BlueR v3 Marlin Configurations](https://github.com/MarlinFirmware/Configurations/tree/release-2.1.2/config/examples/Two%20Trees/BlueR/BlueR%20V3) (from release-2.1.2 in 02/18/2023) + Personal Customization|
 --- | ---
 
 
