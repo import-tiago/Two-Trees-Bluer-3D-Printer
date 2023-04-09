@@ -38,6 +38,19 @@ Versions|[Marlin 3D Printer Firmware](https://github.com/MarlinFirmware/Marlin/r
 <p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/firmware-compile.png" width="100%" height="100%"></p> 
 
 
+## Frequently Asked Questions
+
+<details>
+  <summary>What is my micro-stepping configuration?</summary>
+  
+</details>
+
+<details>
+  <summary>What VREF value I seted at motor-drivers (motors current definition)?</summary>
+  
+</details>
+
+
 ## Print Samples
 
 ### Decoration Models
@@ -79,7 +92,6 @@ Versions|[Marlin 3D Printer Firmware](https://github.com/MarlinFirmware/Marlin/r
 - [x] Auto leveling sensor - [3D Touch](https://br.banggood.com/TWO-TREES-Touch-Auto-Leveling-Sensor-Auto-Bed-Leveling-Sensor-BLTouch-For-3D-Printers-p-1625266.html?rmmds=myorder&cur_warehouse=CN) - **Automatic and improved bed leveling**
 - [x] PEI spring steel sheet with magnetic base [235mm x 235mm](https://www.aliexpress.com/item/1005004111663711.html?spm=a2g0o.productlist.main.11.23e26290BBybOu&algo_pvid=d9085f1c-9384-4d4b-a717-6a7b56e6481d&algo_exp_id=d9085f1c-9384-4d4b-a717-6a7b56e6481d-5&pdp_ext_f=%7B%22sku_id%22%3A%2212000029713002839%22%7D&pdp_npi=3%40dis%21BRL%21333.87%21166.91%21%21%21%21%21%40212248ba16768089154476925d071a%2112000029713002839%21sea%21BR%212057087985&curPageLogUid=6puS8CKqDljH) - **better adhesion and increase surface hardness**
 - [x] Anti-backlash spring loaded nut - [T8](https://pt.aliexpress.com/item/32820989850.html?spm=a2g0o.cart.0.0.4d623c00aKJcGs&mp=1) - **Smooths lines on the z axis**
-
 
 ## Printer Details
 | ![](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/1.jpg) | ![](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/2.jpg) | ![](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/3.jpg) |
