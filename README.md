@@ -35,7 +35,7 @@ More information on the manufacturer's official website: https://twotrees3d.com/
 ## Firmware
 Version|[Marlin 3D Printer Firmware](https://github.com/MarlinFirmware/Marlin/releases/tag/2.1.2) (from release-2.1.2 in 02/18/2023) + [BlueR v3 Marlin Configurations](https://github.com/MarlinFirmware/Configurations/tree/release-2.1.2/config/examples/Two%20Trees/BlueR/BlueR%20V3) (from release-2.1.2 in 02/18/2023) + Personal Customization|
 --- | ---
-<p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/firmware-compile.png" width="100%" height="100%"></p> 
+<p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/firmware-compile.png" width="70%" height="70%"></p> 
 
 
 ## Frequently Asked Questions
@@ -46,7 +46,7 @@ Version|[Marlin 3D Printer Firmware](https://github.com/MarlinFirmware/Marlin/re
 --- | ---
   
 
-### What VREF value I seted at motor-drivers (motors current definition)?
+### What VREF value I seted at motor-drivers (aka motors current definition)?
 
 - X-axis VREF = 0.75V ∴ IRMS = 0.53A </br>
 - Y-axis VREF = 0.85V ∴ IRMS = 0.60A </br>
