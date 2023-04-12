@@ -47,8 +47,14 @@ Version|[Marlin 3D Printer Firmware](https://github.com/MarlinFirmware/Marlin/re
   
 
 ### What VREF value I seted at motor-drivers (motors current definition)?
-    
-  <p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/TMCVref.jpg" width="50%" height="50%"></p>
+
+- X-axis VREF = 0.75V ∴ IRMS = 0.53A </br>
+- Y-axis VREF = 0.85V ∴ IRMS = 0.60A </br>
+- Z-axis VREF = 0.85V ∴ IRMS = 0.60A </br>
+- E-axis VREF = 0.75V ∴ IRMS = 0.53A </br>
+
+<p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/IRMS_formula.png"</p>    
+<p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/TMCVref.jpg" width="50%" height="50%"></p>
   
 | ![](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/VREF_X.png) | ![](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/VREF_Y.png) | ![](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/VREF_Z.png) | ![](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/VREF_E.png) |
 |--|--|--|--|
