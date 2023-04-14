@@ -41,10 +41,10 @@ Version|[Marlin 3D Printer Firmware](https://github.com/MarlinFirmware/Marlin/re
 ## Frequently Asked Questions
 
 ### What is my micro-stepping configuration?
-  
-  ![](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/MicrosteppingJumpers.png) | ![](https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/MicrosteppingDetails.png)
---- | ---
-  
+
+<p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/MicrosteppingDetails.png" width="100%" height="100%"></p>
+<p align="center"><img src="https://github.com/TiagoPaulaSilva/Two-Trees-Bluer-3D-Printer/blob/master/Assets/MicrosteppingJumpers.png" width="70%" height="70%"></p>
+   
 
 ### What VREF value I seted at motor-drivers (aka motors current definition)?
 
