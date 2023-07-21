@@ -30,7 +30,7 @@ These tools are written in Python 3 using the [Pillow image library](https://pil
 
 ## Credits
 
-Created by Brent Burton [[@b-pub](https://github.com/b-pub)]
+Created by Brent Burton [[@b-pub](https://github.com/import-tiago-pub)]
 
 ## License
 

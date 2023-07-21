@@ -27,13 +27,13 @@ Power supply|127V~220V/240W|
 Microcontroller|[STM32F103VET6 datasheet](Hardware/Motherboard/2.%20Datasheets/MCU/STM32F103VET6.pdf)|
 Motor Driver|[TMC2209 datasheet](Hardware/Motherboard/2.%20Datasheets/Stepper%20Motor%20Driver/TMC2209.pdf)|
 Stepper Motor|[US-17HS4401S datasheet](Hardware/Stepper%20Motors/US-17HS4401S.pdf)|
-Motherboard|[MKS Robin Nano v1.2 schematic](Hardware/Motherboard/1.%20Schematic/MKS%20Robin%20Nano%20v1.2.pdf) ([source HW + FW](https://github.com/makerbase-mks/MKS-Robin-Nano-V1.X))|
-Display|[MKS TFT35](https://github.com/makerbase-mks/MKS-TFT) - Parallel line communication interface (FSMC) (schematic not available)|
+Motherboard|[MKS Robin Nano v1.2 schematic](Hardware/Motherboard/1.%20Schematic/MKS%20Robin%20Nano%20v1.2.pdf) ([source HW + FW](https://github.com/import-tiago-mks/MKS-Robin-Nano-V1.X))|
+Display|[MKS TFT35](https://github.com/import-tiago-mks/MKS-TFT) - Parallel line communication interface (FSMC) (schematic not available)|
 
 More information on the manufacturer's official website: https://twotrees3d.com/
 
 ## Firmware
-Version|[Marlin 3D Printer Firmware](https://github.com/MarlinFirmware/Marlin/releases/tag/2.1.2) (from release-2.1.2 in 02/18/2023) + [BlueR v3 Marlin Configurations](https://github.com/MarlinFirmware/Configurations/tree/release-2.1.2/config/examples/Two%20Trees/BlueR/BlueR%20V3) (from release-2.1.2 in 02/18/2023) + Personal Customization|
+Version|[Marlin 3D Printer Firmware](https://github.com/import-tiago/Marlin/releases/tag/2.1.2) (from release-2.1.2 in 02/18/2023) + [BlueR v3 Marlin Configurations](https://github.com/import-tiago/Configurations/tree/release-2.1.2/config/examples/Two%20Trees/BlueR/BlueR%20V3) (from release-2.1.2 in 02/18/2023) + Personal Customization|
 --- | ---
 <p align="center"><img src="Assets/firmware-compile.png" width="70%" height="70%"></p> 
 

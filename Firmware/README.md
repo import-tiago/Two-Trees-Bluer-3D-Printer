@@ -4,10 +4,10 @@
 
 <p align="center">
     <a href="/LICENSE"><img alt="GPL-V3.0 License" src="https://img.shields.io/github/license/marlinfirmware/marlin.svg"></a>
-    <a href="https://github.com/MarlinFirmware/Marlin/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/marlinfirmware/marlin.svg"></a>
-    <a href="https://github.com/MarlinFirmware/Marlin/releases"><img alt="Last Release Date" src="https://img.shields.io/github/release-date/MarlinFirmware/Marlin"></a>
-    <a href="https://github.com/MarlinFirmware/Marlin/actions"><img alt="CI Status" src="https://github.com/MarlinFirmware/Marlin/actions/workflows/test-builds.yml/badge.svg"></a>
-    <a href="https://github.com/sponsors/thinkyhead"><img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/thinkyhead?color=db61a2"></a>
+    <a href="https://github.com/import-tiago/Marlin/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/marlinfirmware/marlin.svg"></a>
+    <a href="https://github.com/import-tiago/Marlin/releases"><img alt="Last Release Date" src="https://img.shields.io/github/release-date/MarlinFirmware/Marlin"></a>
+    <a href="https://github.com/import-tiago/Marlin/actions"><img alt="CI Status" src="https://github.com/import-tiago/Marlin/actions/workflows/test-builds.yml/badge.svg"></a>
+    <a href="https://github.com/import-tiago/thinkyhead"><img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/thinkyhead?color=db61a2"></a>
     <br />
     <a href="https://fosstodon.org/@marlinfirmware"><img alt="Follow MarlinFirmware on Mastodon" src="https://img.shields.io/mastodon/follow/109450200866020466?domain=https%3A%2F%2Ffosstodon.org&logoColor=%2300B&style=social"></a>
 </p>
@@ -19,11 +19,11 @@ Please test this firmware and let us know if it misbehaves in any way. Volunteer
 
 Marlin 2.1 continues to support both 32-bit ARM and 8-bit AVR boards while adding support for up to 9 coordinated axes and to up to 8 extruders.
 
-Download earlier versions of Marlin on the [Releases page](https://github.com/MarlinFirmware/Marlin/releases).
+Download earlier versions of Marlin on the [Releases page](https://github.com/import-tiago/Marlin/releases).
 
 ## Example Configurations
 
-Before you can build Marlin for your machine you'll need a configuration for your specific hardware. Upon request, your vendor will be happy to provide you with the complete source code and configurations for your machine, but you'll need to get updated configuration files if you want to install a newer version of Marlin. Fortunately, Marlin users have contributed dozens of tested configurations to get you started. Visit the [MarlinFirmware/Configurations](https://github.com/MarlinFirmware/Configurations) repository to find the right configuration for your hardware.
+Before you can build Marlin for your machine you'll need a configuration for your specific hardware. Upon request, your vendor will be happy to provide you with the complete source code and configurations for your machine, but you'll need to get updated configuration files if you want to install a newer version of Marlin. Fortunately, Marlin users have contributed dozens of tested configurations to get you started. Visit the [MarlinFirmware/Configurations](https://github.com/import-tiago/Configurations) repository to find the right configuration for your hardware.
 
 ## Building Marlin 2.1
 
@@ -51,7 +51,7 @@ A core tenet of this project is to keep supporting 8-bit AVR boards while also m
   [Arduino AVR](https://www.arduino.cc/)|ATmega|RAMPS, Melzi, RAMBo
   [Teensy++ 2.0](https://www.microchip.com/en-us/product/AT90USB1286)|AT90USB1286|Printrboard
   [Arduino Due](https://www.arduino.cc/en/Guide/ArduinoDue)|SAM3X8E|RAMPS-FD, RADDS, RAMPS4DUE
-  [ESP32](https://github.com/espressif/arduino-esp32)|ESP32|FYSETC E4, E4d@BOX, MRR
+  [ESP32](https://github.com/import-tiago/arduino-esp32)|ESP32|FYSETC E4, E4d@BOX, MRR
   [LPC1768](https://www.nxp.com/products/processors-and-microcontrollers/arm-microcontrollers/general-purpose-mcus/lpc1700-cortex-m3/512-kb-flash-64-kb-sram-ethernet-usb-lqfp100-package:LPC1768FBD100)|ARM® Cortex-M3|MKS SBASE, Re-ARM, Selena Compact
   [LPC1769](https://www.nxp.com/products/processors-and-microcontrollers/arm-microcontrollers/general-purpose-mcus/lpc1700-cortex-m3/512-kb-flash-64-kb-sram-ethernet-usb-lqfp100-package:LPC1769FBD100)|ARM® Cortex-M3|Smoothieboard, Azteeg X5 mini, TH3D EZBoard
   [STM32F103](https://www.st.com/en/microcontrollers-microprocessors/stm32f103.html)|ARM® Cortex-M3|Malyan M200, GTM32 Pro, MKS Robin, BTT SKR Mini
@@ -68,10 +68,10 @@ A core tenet of this project is to keep supporting 8-bit AVR boards while also m
 
 ## Submitting Patches
 
-Proposed patches should be submitted as a Pull Request against the ([bugfix-2.1.x](https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.1.x)) branch.
+Proposed patches should be submitted as a Pull Request against the ([bugfix-2.1.x](https://github.com/import-tiago/Marlin/tree/bugfix-2.1.x)) branch.
 
 - Follow the [Coding Standards](https://marlinfw.org/docs/development/coding_standards.html) to gain points with the maintainers.
-- Please submit Feature Requests and Bug Reports to the [Issue Queue](https://github.com/MarlinFirmware/Marlin/issues/new/choose). Support resources are also listed there.
+- Please submit Feature Requests and Bug Reports to the [Issue Queue](https://github.com/import-tiago/Marlin/issues/new/choose). Support resources are also listed there.
 - Whenever you add new features, be sure to add tests to `buildroot/tests` and then run your tests locally, if possible.
   - It's optional: Running all the tests on Windows might take a long time, and they will run anyway on GitHub.
   - If you're running the tests on Linux (or on WSL with the code on a Linux volume) the speed is much faster.
@@ -91,7 +91,7 @@ The Issue Queue is reserved for Bug Reports and Feature Requests. To get help wi
 
 ## Contributors
 
-Marlin is constantly improving thanks to a huge number of contributors from all over the world bringing their specialties and talents. Huge thanks are due to [all the contributors](https://github.com/MarlinFirmware/Marlin/graphs/contributors) who regularly patch up bugs, help direct traffic, and basically keep Marlin from falling apart. Marlin's continued existence would not be possible without them.
+Marlin is constantly improving thanks to a huge number of contributors from all over the world bringing their specialties and talents. Huge thanks are due to [all the contributors](https://github.com/import-tiago/Marlin/graphs/contributors) who regularly patch up bugs, help direct traffic, and basically keep Marlin from falling apart. Marlin's continued existence would not be possible without them.
 
 ## Administration
 
@@ -102,41 +102,41 @@ Regular users can open and close their own issues, but only the administrators c
 <tr><td>
 
  🇺🇸  **Scott Lahteine**
-       [@thinkyhead](https://github.com/thinkyhead)
+       [@thinkyhead](https://github.com/import-tiago)
        [<kbd>  Donate 💸  </kbd>](https://www.thinkyhead.com/donate-to-marlin)
 
 </td><td>
 
  🇺🇸  **Roxanne Neufeld**
-       [@Roxy-3D](https://github.com/Roxy-3D)
+       [@Roxy-3D](https://github.com/import-tiago-3D)
 
  🇺🇸  **Keith Bennett**
-       [@thisiskeithb](https://github.com/thisiskeithb)
-       [<kbd>  Donate 💸  </kbd>](https://github.com/sponsors/thisiskeithb)
+       [@thisiskeithb](https://github.com/import-tiago)
+       [<kbd>  Donate 💸  </kbd>](https://github.com/import-tiago/thisiskeithb)
 
  🇺🇸  **Jason Smith**
-       [@sjasonsmith](https://github.com/sjasonsmith)
+       [@sjasonsmith](https://github.com/import-tiago)
 
 </td><td>
 
  🇧🇷  **Victor Oliveira**
-       [@rhapsodyv](https://github.com/rhapsodyv)
+       [@rhapsodyv](https://github.com/import-tiago)
 
  🇬🇧  **Chris Pepper**
-       [@p3p](https://github.com/p3p)
+       [@p3p](https://github.com/import-tiago)
 
 🇳🇿  **Peter Ellens**
-       [@ellensp](https://github.com/ellensp)
+       [@ellensp](https://github.com/import-tiago)
        [<kbd>  Donate 💸  </kbd>](https://ko-fi.com/ellensp)
 
 </td><td>
 
  🇺🇸  **Bob Kuhn**
-       [@Bob-the-Kuhn](https://github.com/Bob-the-Kuhn)
+       [@Bob-the-Kuhn](https://github.com/import-tiago-the-Kuhn)
 
  🇳🇱  **Erik van der Zalm**
-       [@ErikZalm](https://github.com/ErikZalm)
-       [<kbd>  Donate 💸  </kbd>](https://flattr.com/submit/auto?user_id=ErikZalm&url=https://github.com/MarlinFirmware/Marlin&title=Marlin&language=&tags=github&category=software)
+       [@ErikZalm](https://github.com/import-tiago)
+       [<kbd>  Donate 💸  </kbd>](https://flattr.com/submit/auto?user_id=ErikZalm&url=https://github.com/import-tiago/Marlin&title=Marlin&language=&tags=github&category=software)
 
 </td></tr>
 </table>

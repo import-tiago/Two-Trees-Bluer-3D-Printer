@@ -57,4 +57,4 @@ mfclean&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Prune your merged and remotely-deleted bra
 
 ### Examples
 
-For a demonstration of these scripts see the video [Marlin Live - May 9 2019](https://youtu.be/rwT4G0uVTIY). There is also an old write-up at [#3193](https://github.com/MarlinFirmware/Marlin/issues/3193).
+For a demonstration of these scripts see the video [Marlin Live - May 9 2019](https://youtu.be/rwT4G0uVTIY). There is also an old write-up at [#3193](https://github.com/import-tiago/Marlin/issues/3193).
