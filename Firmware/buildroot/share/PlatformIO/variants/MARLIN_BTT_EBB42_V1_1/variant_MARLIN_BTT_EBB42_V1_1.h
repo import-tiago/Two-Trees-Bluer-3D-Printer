@@ -155,6 +155,8 @@
   #define SERIAL_UART_INSTANCE  4
 #endif
 
+#define FLASH_BANK_NUMBER       FLASH_BANK_1
+
 // Default pin used for generic 'Serial' instance
 // Mandatory for Firmata
 #ifndef PIN_SERIAL_RX
@@ -165,7 +167,7 @@
 #endif
 
 // Extra HAL modules
-#if !defined(HAL_DAC_MODULE_DISABLED)
+#ifndef HAL_DAC_MODULE_DISABLED
   #define HAL_DAC_MODULE_ENABLED
 #endif
 

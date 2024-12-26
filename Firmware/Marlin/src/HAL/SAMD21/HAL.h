@@ -47,7 +47,6 @@ typedef ForwardSerial1Class< decltype(Serial2) > DefaultSerial3;
 extern DefaultSerial2 MSerial0;
 extern DefaultSerial3 MSerial1;
 
-
 #define __MSERIAL(X) MSerial##X
 #define _MSERIAL(X) __MSERIAL(X)
 #define MSERIAL(X) _MSERIAL(INCREMENT(X))
@@ -70,13 +69,13 @@ extern DefaultSerial3 MSerial1;
   #endif
 #endif
 
-#ifdef MMU2_SERIAL_PORT
-  #if WITHIN(MMU2_SERIAL_PORT, 0, 1)
-    #define MMU2_SERIAL MSERIAL(SERIAL_PORT)
-  #elif MMU2_SERIAL_PORT == -1
-    #define MMU2_SERIAL MSerialUSB
+#ifdef MMU_SERIAL_PORT
+  #if WITHIN(MMU_SERIAL_PORT, 0, 1)
+    #define MMU_SERIAL MSERIAL(SERIAL_PORT)
+  #elif MMU_SERIAL_PORT == -1
+    #define MMU_SERIAL MSerialUSB
   #else
-    #error "MMU2_SERIAL_PORT must be -1 (Native USB only)."
+    #error "MMU_SERIAL_PORT must be -1 (Native USB only)."
   #endif
 #endif
 
@@ -111,8 +110,8 @@ typedef Servo hal_servo_t;
 //
 
 #define HAL_ADC_FILTERED     1     // Disable Marlin's oversampling. The HAL filters ADC values.
-#define HAL_ADC_VREF         3.3
-#define HAL_ADC_RESOLUTION   12
+#define HAL_ADC_VREF_MV   3300
+#define HAL_ADC_RESOLUTION  12
 #define HAL_ADC_AIN_START ADC_INPUTCTRL_MUXPOS_PIN3
 #define HAL_ADC_AIN_NUM_SENSORS 3
 #define HAL_ADC_AIN_LEN HAL_ADC_AIN_NUM_SENSORS-1

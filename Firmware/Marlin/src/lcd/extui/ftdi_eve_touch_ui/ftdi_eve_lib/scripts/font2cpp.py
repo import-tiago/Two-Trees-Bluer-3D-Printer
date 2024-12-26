@@ -17,8 +17,7 @@
 
 from __future__ import print_function
 from PIL import Image
-import argparse
-import textwrap
+import argparse, textwrap
 
 def pack_rle(data):
   """Use run-length encoding to pack the bytes"""
@@ -77,7 +76,7 @@ class WriteSource:
     if len(self.values):
       self.blocks.append(self.values)
 
-    block_strs = [];
+    block_strs = []
     for b in self.blocks:
       data = self.convert_to_4bpp(b)
       data = ', '.join(data)

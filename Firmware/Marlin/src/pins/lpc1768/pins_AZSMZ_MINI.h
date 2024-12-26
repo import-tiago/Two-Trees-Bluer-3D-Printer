@@ -23,6 +23,7 @@
 
 /**
  * AZSMZ MINI pin assignments
+ * Source: https://raw.githubusercontent.com/Rose-Fish/AZSMZ-mini/master/AZSMZ.sch
  */
 
 #include "env_validate.h"
@@ -80,8 +81,8 @@
 // EFB
 #define HEATER_0_PIN                       P2_04
 #define HEATER_BED_PIN                     P2_05
-#ifndef FAN_PIN
-  #define FAN_PIN                          P2_07
+#ifndef FAN0_PIN
+  #define FAN0_PIN                         P2_07
 #endif
 #define FAN1_PIN                           P0_26
 
@@ -94,7 +95,7 @@
   #define BTN_EN1                          P4_28
   #define BTN_EN2                          P1_27
   #define BTN_ENC                          P3_26
-  #ifndef SDCARD_CONNECTION
+  #if !defined(SDCARD_CONNECTION) && DISABLED(NO_LCD_SDCARD)
     #define SDCARD_CONNECTION                LCD
   #endif
 #endif

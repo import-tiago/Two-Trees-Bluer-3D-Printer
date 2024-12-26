@@ -8,4 +8,4 @@ Currently it supports:
  * STM32F4xx
  * STM32F7xx
 
-Targeting the official [Arduino STM32 Core](https://github.com/import-tiago/Arduino_Core_STM32).
+Targeting the official [Arduino STM32 Core](https://github.com/stm32duino/Arduino_Core_STM32).

@@ -99,6 +99,7 @@ void GcodeSuite::D(const int16_t dcode) {
     } break;
 
     #if ENABLED(EEPROM_SETTINGS)
+
       case 3: { // D3 Read / Write EEPROM
         uint8_t *pointer = parser.hex_adr_val('A');
         uint16_t len = parser.ushortval('C', 1);
@@ -107,35 +108,27 @@ void GcodeSuite::D(const int16_t dcode) {
         NOMORE(len, persistentStore.capacity() - addr);
         if (parser.seenval('X')) {
           uint16_t val = parser.hex_val('X');
-          #if ENABLED(EEPROM_SETTINGS)
-            persistentStore.access_start();
-            while (len--) {
-              int pos = 0;
-              persistentStore.write_data(pos, (uint8_t *)&val, sizeof(val));
-            }
-            SERIAL_EOL();
-            persistentStore.access_finish();
-          #else
-            SERIAL_ECHOLNPGM("NO EEPROM");
-          #endif
+          persistentStore.access_start();
+          while (len--) {
+            int pos = 0;
+            persistentStore.write_data(pos, (uint8_t *)&val, sizeof(val));
+          }
+          SERIAL_EOL();
+          persistentStore.access_finish();
         }
         else {
           // Read bytes from EEPROM
-          #if ENABLED(EEPROM_SETTINGS)
-            persistentStore.access_start();
-            int pos = 0;
-            uint8_t val;
-            while (len--) if (!persistentStore.read_data(pos, &val, 1)) print_hex_byte(val);
-            SERIAL_EOL();
-            persistentStore.access_finish();
-          #else
-            SERIAL_ECHOLNPGM("NO EEPROM");
-            len = 0;
-          #endif
+          persistentStore.access_start();
+          int pos = 0;
+          uint8_t val;
+          while (len--) if (!persistentStore.read_data(pos, &val, 1)) print_hex_byte(val);
+          SERIAL_EOL();
+          persistentStore.access_finish();
           SERIAL_EOL();
         }
       } break;
-    #endif
+
+    #endif // EEPROM_SETTINGS
 
     case 4: { // D4 Read / Write PIN
       //const bool is_out = parser.boolval('F');
@@ -156,20 +149,21 @@ void GcodeSuite::D(const int16_t dcode) {
     } break;
 
     case 5: { // D5 Read / Write onboard Flash
-      #define FLASH_SIZE 1024
+              // This will overwrite program and data, so don't use it.
+      #define ONBOARD_FLASH_SIZE 1024 // 0x400
       uint8_t *pointer = parser.hex_adr_val('A');
       uint16_t len = parser.ushortval('C', 1);
       uintptr_t addr = (uintptr_t)pointer;
-      NOMORE(addr, size_t(FLASH_SIZE - 1));
-      NOMORE(len, FLASH_SIZE - addr);
+      NOMORE(addr, size_t(ONBOARD_FLASH_SIZE - 1));
+      NOMORE(len, ONBOARD_FLASH_SIZE - addr);
       if (parser.seenval('X')) {
         // TODO: Write the hex bytes after the X
         //while (len--) {}
       }
       else {
         //while (len--) {
-        //// TODO: Read bytes from EEPROM
-        //  print_hex_byte(eeprom_read_byte(adr++));
+        //// TODO: Read bytes from FLASH
+        //  print_hex_byte(flash_read_byte(adr++));
         //}
         SERIAL_EOL();
       }
@@ -198,7 +192,7 @@ void GcodeSuite::D(const int16_t dcode) {
       SERIAL_ECHOLNPGM("FAILURE: Watchdog did not trigger board reset.");
     } break;
 
-    #if ENABLED(SDSUPPORT)
+    #if HAS_MEDIA
 
       case 101: { // D101 Test SD Write
         card.openFileWrite("test.gco");
@@ -249,7 +243,7 @@ void GcodeSuite::D(const int16_t dcode) {
         card.closefile();
       } break;
 
-    #endif // SDSUPPORT
+    #endif // HAS_MEDIA
 
     #if ENABLED(POSTMORTEM_DEBUGGING)
 

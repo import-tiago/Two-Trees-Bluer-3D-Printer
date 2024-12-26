@@ -26,7 +26,7 @@
 
 #include "../../inc/MarlinConfig.h"
 
-#if ENABLED(SDIO_SUPPORT)
+#if ENABLED(ONBOARD_SDIO)
 
 #include "sdio.h"
 
@@ -238,7 +238,7 @@ void HAL_SD_MspInit(SD_HandleTypeDef *hsd) {
     hdma_sdio.Init.MemInc = DMA_MINC_ENABLE;
     hdma_sdio.Init.PeriphDataAlignment = DMA_PDATAALIGN_WORD;
     hdma_sdio.Init.MemDataAlignment = DMA_MDATAALIGN_WORD;
-    hdma_sdio.Init.Priority = DMA_PRIORITY_LOW;
+    hdma_sdio.Init.Priority = DMA_PRIORITY_MEDIUM;
     __HAL_LINKDMA(&hsd, hdmarx, hdma_sdio);
     __HAL_LINKDMA(&hsd, hdmatx, hdma_sdio);
 
@@ -285,6 +285,9 @@ void HAL_SD_MspInit(SD_HandleTypeDef *hsd) {
     }
 
     go_to_transfer_speed();
+
+    hsd.Init.ClockPowerSave = SDIO_CLOCK_POWER_SAVE_ENABLE;
+    hsd.Init.ClockDiv = 8;
 
     #if PINS_EXIST(SDIO_D1, SDIO_D2, SDIO_D3) // go to 4 bit wide mode if pins are defined
       retry_Cnt = retryCnt;
@@ -433,7 +436,10 @@ bool SDIO_WriteBlock(uint32_t block, const uint8_t *src) {
   #else
 
     uint8_t retries = SDIO_READ_RETRIES;
-    while (retries--) if (SDIO_ReadWriteBlock_DMA(block, src, nullptr)) return true;
+    while (retries--) {
+      if (SDIO_ReadWriteBlock_DMA(block, src, nullptr)) return true;
+      delay(10);
+    }
     return false;
 
   #endif
@@ -447,5 +453,5 @@ uint32_t SDIO_GetCardSize() {
   return (uint32_t)(hsd.SdCard.BlockNbr) * (hsd.SdCard.BlockSize);
 }
 
-#endif // SDIO_SUPPORT
+#endif // ONBOARD_SDIO
 #endif // HAL_STM32
