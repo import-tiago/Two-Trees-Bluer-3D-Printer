@@ -54,9 +54,11 @@
 #endif
 
 /**
- * M115: Capabilities string and extended capabilities report
- *       If a capability is not reported, hosts should assume
- *       the capability is not present.
+ * M115: Firmware Info
+ *
+ * Capabilities string and extended capabilities report.
+ * If a capability is not reported, hosts should assume
+ * the capability is not present.
  *
  * NOTE: Always make sure to add new capabilities to the RepRap Wiki
  *       at https://reprap.org/wiki/Firmware_Capabilities_Protocol
@@ -194,7 +196,7 @@ void GcodeSuite::M115() {
 
     // MULTI_VOLUME (M21 S/M21 U)
     #if HAS_MEDIA
-      cap_line(F("MULTI_VOLUME"), ENABLED(MULTI_VOLUME));
+      cap_line(F("MULTI_VOLUME"), ENABLED(HAS_MULTI_VOLUME));
     #endif
 
     // REPEAT (M808)
