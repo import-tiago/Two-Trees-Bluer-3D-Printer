@@ -32,10 +32,46 @@ Display|[MKS TFT35](https://github.com/import-tiago-mks/MKS-TFT) - Parallel line
 
 More information on the manufacturer's official website: https://twotrees3d.com/
 
-## Firmware
-Version|[Marlin 3D Printer Firmware](https://github.com/MarlinFirmware/Marlin/releases/tag/2.1.3-b1) (from release 2.1.3-b1) + [BlueR v3 Marlin Configurations](https://github.com/MarlinFirmware/Configurations/tree/release-2.1.3-b1/config/examples/Two%20Trees/BlueR/BlueR%20V3) (from release 2.1.3-b1) + Personal Customization|
+# Firmware
+
+Version|[Marlin 3D Printer Firmware](https://github.com/MarlinFirmware/Marlin/releases/tag/2.1.3-b3) (from release 2.1.3-b3) + [BlueR v3 Marlin Configurations](https://github.com/MarlinFirmware/Configurations/tree/release-2.1.3-b3/config/examples/Two%20Trees/BlueR/BlueR%20V3) (from release 2.1.3-b3) + Personal Customization|
 --- | ---
 <p align="center"><img src="Assets/firmware-compile.png" width="70%" height="70%"></p> 
+
+## Custom Modifications
+
+**In `Configuration.h`:**
+```cpp
+#define BLUER_TMC2209
+#define BLUER_BLTOUCH
+#define Z_DRIVER_TYPE BASE_DRIVER_TYPE
+#define E0_DRIVER_TYPE BASE_DRIVER_TYPE
+#define Z_MIN_ENDSTOP_HIT_STATE HIGH
+#define USE_PROBE_FOR_Z_HOMING
+#define DEFAULT_AXIS_STEPS_PER_UNIT {160, 160, 800, 830}
+#define NOZZLE_TO_PROBE_OFFSET { 0, -37, 0 }  // These values apply to *my* BLTouch mount. Adjust according to your specific bracket/mount.
+//#define RESTORE_LEVELING_AFTER_G28
+#define ENABLE_LEVELING_AFTER_G28
+#define PREHEAT_BEFORE_LEVELING
+#define ENDSTOP_NOISE_THRESHOLD 2
+#define PROBING_FANS_OFF 
+#define PROBING_ESTEPPERS_OFF 
+#define PROBING_STEPPERS_OFF
+#define DELAY_BEFORE_PROBING 200
+#define MULTIPLE_PROBING 2
+#define EXTRA_PROBING 1
+#define GRID_MAX_POINTS_X 4
+#define EXTRAPOLATE_BEYOND_GRID
+#define Z_MIN_PROBE_REPEATABILITY_TEST
+```
+
+**In `Configuration_adv.h`:**
+```cpp
+#define BLTOUCH_DELAY 500
+//#define BLTOUCH_FORCE_SW_MODE // must remain commented (issue #27235)
+```
+
+
 
 
 ## Frequently Asked Questions
@@ -107,3 +143,4 @@ Version|[Marlin 3D Printer Firmware](https://github.com/MarlinFirmware/Marlin/re
 |--|--|--|
 | ![](Assets/4.jpg) | ![](Assets/5.jpg) | ![](Assets/6.jpg) |
 | ![](Assets/7.jpg) | ![](Assets/8.jpg) | ![](Assets/10.jpg) |
+
