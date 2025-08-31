@@ -33,7 +33,7 @@ Display|[MKS TFT35](https://github.com/import-tiago-mks/MKS-TFT) - Parallel line
 More information on the manufacturer's official website: https://twotrees3d.com/
 
 ## Firmware
-Version|[Marlin 3D Printer Firmware](https://github.com/import-tiago/Marlin/releases/tag/2.1.2) (from release-2.1.2 in 02/18/2023) + [BlueR v3 Marlin Configurations](https://github.com/import-tiago/Configurations/tree/release-2.1.2/config/examples/Two%20Trees/BlueR/BlueR%20V3) (from release-2.1.2 in 02/18/2023) + Personal Customization|
+Version|[Marlin 3D Printer Firmware](https://github.com/MarlinFirmware/Marlin/releases/tag/2.1.3-b1) (from release 2.1.3-b1) + [BlueR v3 Marlin Configurations](https://github.com/MarlinFirmware/Configurations/tree/release-2.1.3-b1/config/examples/Two%20Trees/BlueR/BlueR%20V3) (from release 2.1.3-b1) + Personal Customization|
 --- | ---
 <p align="center"><img src="Assets/firmware-compile.png" width="70%" height="70%"></p> 
 
