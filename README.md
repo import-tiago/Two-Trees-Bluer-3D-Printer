@@ -63,6 +63,7 @@ Version|[Marlin 3D Printer Firmware](https://github.com/MarlinFirmware/Marlin/re
 #define GRID_MAX_POINTS_X 4
 #define EXTRAPOLATE_BEYOND_GRID
 #define Z_MIN_PROBE_REPEATABILITY_TEST
+#define Y_MIN_POS 0
 ```
 
 **In `Configuration_adv.h`:**
@@ -143,4 +144,5 @@ Version|[Marlin 3D Printer Firmware](https://github.com/MarlinFirmware/Marlin/re
 |--|--|--|
 | ![](Assets/4.jpg) | ![](Assets/5.jpg) | ![](Assets/6.jpg) |
 | ![](Assets/7.jpg) | ![](Assets/8.jpg) | ![](Assets/10.jpg) |
+
 
